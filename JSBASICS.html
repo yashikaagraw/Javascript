@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS BASICS</title>
+    <script>
+        /* 
+        Undefined vs Null
+        Undefined means a variable has been declared but has yet not been assigned a value. Null is an assignment value.
+        let student1 = {
+            firstName: 'Yashika',
+            lastName: 'Agrawal',
+            batchNo: 11.
+        }
+        let student2={
+            firstName: 'Sonali',
+            lastName: null,
+            batchNo : 11,
+        }
+        console.log(student2.lastName)
+        */
+
+//-----------------------------------------------------
+        /*var x = 5
+        console.log(typeof x) output will be number
+        var x = 'Raj' => string
+        typeof true => boolean
+        var x = undefined => undefined 
+        var x = null => object
+        var x = NaN => number 
+
+        /* #### Type Coercion:- 
+        console.log(5 == '5') => true(Equality)
+        console.log('5'=== 5) => false
+        if you try to add a string and a number using the "+" operator, JavaScript will convert the number to a string and concatenate the two values
+        == : Equality operator
+        === : Strict equality operator / identical operator
+        console.log('5'==5) 
+
+        ### Declaration, Assignment, Re-assignment
+        var x //Declared
+        var x = 5 // Initialization 
+        x= 10 //Re-assignment
+---------------------------------------------------------
+        ### Different data types ( Primitive and Non Primitive)
+        - Primitive 
+        -Number
+        -String
+        -Boolean 
+        -undefined
+        -null
+    -Non-Primitive 
+      -object
+------------------------------------------------------
+      #### Strings (Immutiability) vs Arrays (Mutuability)
+      let arr = [2,1,9,7,10]
+      arr[0] = 100
+      console.log(arr)
+
+      let str = 'Gourav'
+      console.log(str(2))
+      console.log(str.charAt(2))
+
+      let str = 'Gourav'
+      str[2] = 'z'
+      console.log(str) => Gourav (Stringsare immutable)
+----------------------------------------------------------
+      #### Scope
+      
+    var x = 5
+    var x = 10
+    console.log(x) => 10
+
+    {
+        let x = 5
+        
+    }
+    console.log(x) => value of x is undefined 
+
+    let x
+    {
+        x = 5
+        console.log(x)
+    }
+    console.log(x) => 5 5
+
+    function abc() {
+        let x=10
+        {
+            console.log(x)
+        }
+    }
+    abc()
+
+{
+    const x= 10
+    console.log(x)
+}
+console.log(x) => undefined 
+
+const x = 10
+x = x + 100
+console.log(x) 
+
+var is a placehold who keeps on value changing 
+const is constant whose value doesn't change 
+ES6 is EcmaScript, modern js, many things are added in it and made js a beautiful langague 
+
+var is globally scoped while let and const are blocked scoped 
+var can be updated and re-declared within its shape 
+let can be updated but not re-declared 
+const can neither be updated nor be re- declared 
+const can be used to keep a value constant, re-assignment is not allowed 
+
+
+var a = 45;
+let b = "Yashika"
+var c = null 
+var d = undefined 
+
+{let b = 'this'
+console.log(b)
+}
+console.log(b) => this Harry
+
+object.freeze() = Makes object immutable. Ensure that no furthur updates can be made to that object 
+---------------------------------------------------------
+### Hoisting :- all declarations in JS are hoisted to the top before JS code execution 
+var x
+function abc() {
+    console.log('abc')
+}
+console.log(x)
+abc() => abc
+
+        */
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
