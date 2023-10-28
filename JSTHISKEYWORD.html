@@ -1,0 +1,31 @@
+let yashiDetails = {
+    firstName: "Yashi",
+    lastName: "Agrawal",
+    sayThankYou: function () {
+        console.log(this.firstName + " " + this.lastName + " says thank you!");
+    }
+};
+
+yashiDetails.sayThankYou();
+=> Yashi Agrawal says thank you
+
+DOM-Documented Object Model
+this keyword
+Window concept-parent object- dom also an object that represent entire HTML file
+
+this.alert('Hi')
+window.alert('Hi')
+
+confirm('Are you sure?') ask yes or no to user
+
+function methods: call, Apply, Bind
+let yashikaDetails = {
+    firstName: 'Yashika',
+    lastName: 'Agrawal',
+    sayFullName: function() {
+        console.log(this.firstName+''+this.lastName)
+    }
+}
+
+sayFullName.call(yashikaDetails)
+
