@@ -4,6 +4,7 @@ are used to pass data from parent component to child component,
 while state is used to manage data within a component.
 props are immutable and cannot be changed within a component,while
 state is mutable and can be updated using the setState function.
+whenever there is state change, react component re rendered
 
 ##
 inside react app we have SCAFFOLD, 
@@ -46,6 +47,27 @@ i.e. helper packages which can be used inside
 class component:- 
 functional component - normal js function
 created using function inside javascript class based components are 
+
+## JSX:-
+JS is simply a scripting language, adding functionality into your website.
+JSX is an addition to the JavaScript syntax which is a mixture of both HTML and JavaScript.
+Both JS and JSX are interchangeable but JSX makes the code easier to understand for users.
+
+## useState:- 
+it is a hook to create some dynamic variables
+if we want to change variable then we use 
+React Hook that allows you to add state to 
+a functional component. It returns an array 
+with two values: the current state and a function 
+to update it. 
+The Hook takes an initial state value as an argument 
+and returns an updated state value whenever the setter function is called.
+
+##Tailwind CSS:-
+is a CSS framework it gives us pre-built classes
+we can use them. it is good for large scale projects
+where we have to write a lot of CSS  so it 
+helps us to optimise css
 
 
 
