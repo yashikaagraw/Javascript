@@ -1,0 +1,53 @@
+##Differece between state and props ?
+Props is something that data receives and 
+are used to pass data from parent component to child component,
+while state is used to manage data within a component.
+props are immutable and cannot be changed within a component,while
+state is mutable and can be updated using the setState function.
+
+##
+inside react app we have SCAFFOLD, 
+this create react app will build a dummy react app and then we can code inside it 
+package will give us bundlers and then it will give us a set up of testing
+and it will ready to go live application and it helps us to start developing very fast
+we don't have to worry about packaging of the content.
+
+## PACKAGING OF THE CONTENT:-
+when we develop react application there are so many files, 
+component, js files, css and everything so what happens is you can't 
+directly host them on web so basically you need to run on the server
+so we create a server so it helps us host those our application onto a 
+server on local host and it will also help you to build.
+
+## HOW IT WILL CREATE A BUILD:-
+it basically uses sth known as bundlers, in create react app there is a bundler
+which is known as webpack. it's job is to basically compile our code 
+and basicallyit compiles our project and runs to local host and there 
+are some commands by which you can build this project. 
+all those things are done by blunder
+
+## INSIDE PUBLIC FOLDER:-
+have content which will need our application
+i.e. icon of the app that can see on top of browser
+manifest.js, we can put extra things 
+PWS(Progressive web application)
+ROBOTS.TXT:- will be helpful for SEO 
+to make website crawlable for search engines
+NODE MODULES:- 
+is a place which has all the dependies of our project
+when we create our project we need javascript packages
+those js packages are installed inside this so basically 
+it has a lot js libraries which are being used by react by webpack 
+to make our application run.
+i.e. helper packages which can be used inside 
+
+##FUNCTIONAL COMPONENT:-
+2 TYpes of functional component:-
+class component:- 
+functional component - normal js function
+created using function inside javascript class based components are 
+
+
+
+
+
