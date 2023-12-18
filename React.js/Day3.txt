@@ -1,0 +1,74 @@
+What is jsx?
+ ▪ Jsx stands for JavaScript XML.
+ ▪ It is html like syntax(not html).
+ ▪ It is a easier syntax to create react element.
+ ▪ If you want to give attribute to jsx then use camelCase.
+
+✅ What is Babel?
+ ▪ It is an Javascript transpiler(compiler).
+ ▪ It is an transpliler which converts jsx code to which browser understand.
+ ▪ Older browser does not understand es6 so bable transpile the code that older browser understand.
+ 
+✅ What is component?
+ ▪ Everything in react is component.
+ ▪ ex : button ,header ,card , etc.
+
+✅ What are the different type of component?
+ ▪ 1.Class based component(older way of writing component).
+ ▪ 2.Functional component(newer way of writing component).
+
+✅ What is functional component?
+ ▪ It is a normal JavaScript function which returns some piece of jsx(react element).
+ ▪ It is good to create function component with capital letter(it is not mandatory but it is common convention so that react understand it that it is functional component).
+ 
+✅ Difference between ReactElement and ReactComponent?
+ ▪ ReactElement return js object.
+ ▪ ReactComponent return some piece of jsx or react element
+ 
+ ▪ At the time of rendering react element we write element name
+ ▪ At the time of rendering react component we write component name inside the angular bracket.
+
+✅ Different ways to render react functional component?
+ ▪ ex: 
+ 1.<Heading/> 
+ 2.<Heading></Heading>
+ 3.Heading()
+
+✅ What is component composition?
+ ▪ It means rendering component inside the component.
+
+✅ What is this {}?
+ ▪ inside {} this we can write any piece of JavaScript code in jsx.
+
+✅ How to put any react element inside react component?
+ ▪ we can do this inside {}
+ 
+✅ what is XSS?
+ ▪ XSS - Cross site scripting (XSS) is an attack in which an attacker injects malicious executable scripts   into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
+JSX takes care of XSS.
+
+What is Props?
+ • Props are just normal arguments to a function.
+ • Using props we can pass dynamic data to a component.
+ • Props are immutable we can not change props.
+ • In react properties are known as props.
+ • Props return object.
+
+✅ What is config driven UI?
+ • It means UI is controlled by the data(which come from backend). or UI is driven by config.
+ • for ex: swiggy present on different location and on each location their is different info, this happens because swiggy frontend(UI) is controlled by config this is known as config driven UI.
+ • If we want red color background in Mumbai and orange color in jaipur we can do this using config driven UI. 
+
+✅ Why it is important to use key while using map?
+ • It is important because if you do map over something and doesn't give key then react can not identify each element as unique and if new element comes at that time it will re-render all the element.
+
+✅ Other Imp Point's to learn from this episode
+
+➡ Planning before creating react-app
+➡ Destructuring on the fly.
+➡ Object Destructuring.
+➡ How to see API data.
+➡ How to see API data in browser using JSON viewer.
+➡ How to review our code.
+➡ Optional Channing.
+➡ Array Map Method.

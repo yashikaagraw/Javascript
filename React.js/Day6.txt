@@ -1,0 +1,35 @@
+
+✅ What is Monolith Architecture?
+▪ Monolith is the traditional way of creating application.
+   ▪ At that time there used to be single big application ,under which everything like API, auth, database, UI , etc are written in single application. if we want change the UI then we have to compile the whole project and deploy it.
+
+✅ What is Microservices Architecture?
+▪ In Microservices we have different small services such as UI service, API service , database service ,notification service ,payment service , etc and all the services combine together to create a application.
+▪ This is also known as separation of concern or single responsibility principle , it means each services has there own job nobody interferes.
+
+✅ Ways to fetch data from backend(API)?
+▪ As user loads the website make an API call and then render it on UI. In this if fetching data from API takes 500ms to fetch at that time there is nothing to show on screen and as soon as data comes and suddenly appears on screen and this not gives better ux.
+  ▪ As user loads the website render something on screen and then make API call after that render once again and update the UI. This gives better ux.
+
+✅ What is useEffect hook?
+▪ useEffect is a function which is call by passing another function to it.
+   ▪ useEffect takes two parameters, first one is a callback function and second is dependency array.
+   ▪ useEffect is called after the component renders.
+   ▪ If we don't put dependency array useEffect will be called on every render.
+   ▪ If we put empty dependency array useEffect will be called once only after render.
+   ▪ If we put state variable inside dependency array useEffect will be called after every time my state variable updates.
+     
+✅ What is conditional rendering?
+▪ Rendering something on the basis of condition.
+
+✅ Why do we need state variable in react?
+▪ If we create normal JS variable inside React ,and if we want to update value it will update the value, but the UI does not updated that's why we need state variable.
+
+✅ Why do we need useEffect hook?
+▪ Whenever we want to do something after the component render we can use useEffect hook.
+
+✅ Other Imp Point's to learn from this episode
+
+▪ What is CORS policy?
+▪ Shimmer UI.
+▪ Search Functionality.
