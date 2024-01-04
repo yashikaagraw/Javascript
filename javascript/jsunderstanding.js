@@ -46,6 +46,16 @@ you can access these variables and functions even before you
 have initialized it and you have put same value in it you can
 access it without any error
 
+var x=7;
+function getName(){
+   console.log("Yashika");
+}
+getName();
+console.log(x);
+output:-
+Yashika
+undefined
+
 #Scoping:- 3 types of scope:-
 block(let and const), function and global
 
