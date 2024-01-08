@@ -1,0 +1,33 @@
+What is React.js, and what problem does it solve in web development?
+✅ How does React differ from other JavaScript frameworks or libraries?
+✅ What is JSX, and why is it commonly used in React?
+✅ How does React handle components, and what are the benefits of a component-based architecture?
+✅ What are the differences between functional components and class components in React?
+✅ How does state management work in React, and what are the different ways to manage state?
+✅ What are props in React, and how are they used to pass data between components?
+✅ How does React handle rendering and updating the DOM efficiently?
+✅ What is the Virtual DOM, and how does React utilize it for performance optimization?
+✅ How does event handling differ in React compared to traditional HTML/JS?
+✅ What are controlled components in React, and why are they important?
+✅ Explain the lifecycle methods in class components and how they correspond to functional components with hooks.
+✅ What are React hooks, and how do they change the way we write components?
+✅ Explain the useEffect hook and its purpose in managing side effects in React.
+✅ What is the difference between useMemo and useCallback hooks?
+✅ How does conditional rendering work in React, and what are some common ways to conditionally render components?
+✅ What is the role of keys in React lists, and why are they important?
+✅ How does React Router work, and what problem does it solve in React applications?
+✅ What are higher-order components (HOCs) in React, and how are they used?
+✅ What is context in React, and when is it appropriate to use it?
+✅ How can you optimize performance in React applications?
+✅ What are error boundaries in React, and how can they help handle errors in components?
+✅ What is the purpose of refs in React, and in what scenarios are they useful?
+✅ How does server-side rendering (SSR) differ from client-side rendering in React?
+✅ What is the significance of the 'key' attribute when rendering a list of components?
+✅ How can you prevent unnecessary re-renders in React components?
+✅ Explain the concept of lifting state up in React.
+✅ What are the best practices for organizing and structuring React applications?
+✅ How does React differ from React Native, and what are their respective use cases?
+✅ Can you explain the reconciliation process in React?
+
+
+#reactjs #interviwew
