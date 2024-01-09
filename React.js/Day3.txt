@@ -72,3 +72,47 @@ What is Props?
 ➡ How to review our code.
 ➡ Optional Channing.
 ➡ Array Map Method.
+
+ Understanding React Component Lifecycle: Class vs. Functional Components with Hooks
+
+In React, components are the building blocks of UI. They undergo various phases known as lifecycle methods that manage their behavior. Traditionally, class components utilized lifecycle methods, while functional components relied on hooks to achieve similar functionalities.
+
+📍 Class Components and Lifecycle Methods
+Class components in React have lifecycle methods divided into three main phases: mounting, updating, and unmounting.
+
+✅ Mounting Phase:
+🔸constructor() - Initializes state and bindings.
+🔸componentDidMount() - Executes after the component mounts into the DOM. Ideal for fetching data.
+
+✅ Updating Phase:
+🔸shouldComponentUpdate() - Allows optimization by preventing unnecessary re-renders.
+🔸componentDidUpdate() - Executes after the component updates.
+
+✅ Unmounting Phase:
+🔸componentWillUnmount() - Executes just before the component is unmounted and destroyed. Used for cleanup operations.
+
+📍Functional Components and Hooks
+Functional components, prior to the introduction of hooks, lacked lifecycle methods. Hooks were introduced in React 16.8 to bridge this gap.
+
+✅ `useState` Hook:
+🔸Equivalent to managing state in class components.
+
+✅ `useEffect` Hook:
+🔸Mounting and Updating Phases: Combines functionalities of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` based on its dependencies.
+
+✅ Other Hooks:
+🔸'useContext`, `useReducer`, `useCallback`, `useMemo`, etc. - Provide functionalities akin to specific aspects of class component lifecycle methods.
+
+📍 Comparing Lifecycle Methods: Class vs. Functional Components
+
+✅ State Management:
+🔸Class components use `this.state` and `this.setState()`; functional components utilize `useState`.
+
+✅ Lifecycle Control:
+🔸Class components have specific methods for each phase, while `useEffect` in functional components covers multiple lifecycle aspects.
+
+✅ Cleanup and Optimization:
+🔸Class components require `componentWillUnmount()` for cleanup; in functional components, `useEffect` with a cleanup function serves the same purpose.
+
+✅ Readability and Code Simplicity:
+🔸Hooks streamline code by encapsulating related logic, making functional components more concise and readable compared to class components with scattered lifecycle methods.
