@@ -1,0 +1,23 @@
+####Shuffling an array:
+const shuffedArray= array => array.sort(()=> Math.random()-0.5);
+
+####FLATTEN AN ARRAY:-
+const flatArray = array => [].concat(...array);
+
+####CHECK FOR PALINDROME:-
+const isPalindrome = str => str===str.split(").reverse().join('');
+
+####SUMMING ARRAY ELEMENTS:-
+const sum = array.reduce((acc, num)=> acc+num, 0);
+
+####GET UNIQUE VALUES:-
+const uniqueValues = array => [...new Set(array)];
+
+####FINDING MAXIMUM IN AN ARRAY:-
+const max= Math.max(...array);
+
+####SWAP VARIABLES:-
+let a=1. b=2; [a, b] = [b, a];
+
+####CHECK IF OBJECT IS EMPTY:
+const isObjectEmpty = obj => Object.Keys(obj).length===0;
